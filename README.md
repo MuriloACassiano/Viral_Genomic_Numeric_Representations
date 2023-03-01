@@ -58,8 +58,10 @@ ________________________________________________________________________________
 
 ### Numeric encoding
 
+Script -> [numeric_encoding.py](https://github.com/MuriloACassiano/Viral_Genomic_Numeric_Representations/blob/main/numeric_encoding.py)
+
 As input, this script takes a fasta file, containing whole genome sequences in ACGTN characters (not aligned sequences).
-As output, this software provide a csv file, with the first 
+As output, this software provide a csv file, with the first column being the fasta header from the original fasta file.
 
 usage:
 
