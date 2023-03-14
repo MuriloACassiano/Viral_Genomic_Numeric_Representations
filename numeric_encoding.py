@@ -166,11 +166,11 @@ else:
 		if(args.representation == "4-mer"):
 			ks = kmer_order(4)
 			df = pd.DataFrame(columns = ["id"]+[k+x for x in ks for k in ["ni_", "mu_", "D_2_"]])
-			df.to_csv(args.fasta+"4natvec.csv", index = True, header = True)
+			df.to_csv(args.fasta+".4natvec.csv", index = True, header = True)
 			for h, s in zip(db.keys(), db.values()):
 				seq = s.upper()
 				new = pd.DataFrame({'id':h,**natural_count(seq)}, index=[i])
-				new.to_csv(args.fasta+"4natvec.csv", mode="a", index=True, header = False)
+				new.to_csv(args.fasta+".4natvec.csv", mode="a", index=True, header = False)
 				i = i + 1
 		else:
 			if(args.representation == "6-mer"):

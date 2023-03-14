@@ -29,15 +29,19 @@ ray==1.12.1
 
 regex==2022.4.24
 
+scikit-learn==1.1.2
+
+umap-learn==0.5.3
+
 It is required Python 3.8+, pip correclty installed in your machine.
 See (https://pip.pypa.io/en/stable/installation/)
 
 
 To install:
 ```
-pip install numpy==1.23.5 pandas==1.4.2 pyfastx==0.8.4 ray==1.12.1 regex==2022.4.24
+pip install numpy==1.23.5 pandas==1.4.2 pyfastx==0.8.4 ray==1.12.1 regex==2022.4.24 scikit-learn==1.1.2 umap-learn==0.5.3
 #or
-pip3 install numpy==1.23.5 pandas==1.4.2 pyfastx==0.8.4 ray==1.12.1 regex==2022.4.24
+pip3 install numpy==1.23.5 pandas==1.4.2 pyfastx==0.8.4 ray==1.12.1 regex==2022.4.24 scikit-learn==1.1.2 umap-learn==0.5.3
 ```
 
 
