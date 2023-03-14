@@ -41,19 +41,38 @@ pip3 install numpy==1.23.5 pandas==1.4.2 pyfastx==0.8.4 ray==1.12.1 regex==2022.
 ```
 
 
+
 #### R
+
+We suggest the usage of rpy2, as it simplifies the runnning of python and R at the same notebook.
+
+##### One must properly install rpy2 before continue:
+https://rpy2.github.io/doc/latest/html/overview.html#install-installation
+
+At the end of installation, one must be able to run the cell bellow:
+```
+%load_ext rpy2.ipython
+```
 
 These are the R libraries required to run the codes:
 
-ape ????????
-
-It is required R base...................
-
-
-To install:
+###### Install and load the Bioconductor manager
 ```
-install.packages(c("",))
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install()
 ```
+
+###### Install the required Bioconductor packages
+```
+BiocManager::install(c("phyloTop", "treeio", "castor", "ggtree"))
+```
+
+###### Install the required CRAN packages
+```
+install.packages(c("tidyverse", "ape", "tidytree", "ggpubr"))
+```
+
 ________________________________________________________________________________
 
 ### Numeric encoding
