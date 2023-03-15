@@ -75,6 +75,8 @@ BiocManager::install(c("phyloTop", "treeio", "castor", "ggtree"))
 ###### Install the required CRAN packages
 ```
 install.packages(c("tidyverse", "ape", "tidytree", "ggpubr"))
+install.packages(c("ggExtra", "ggpmisc", "reshape2"))
+install.packages(c("phylotools"))
 ```
 
 ________________________________________________________________________________

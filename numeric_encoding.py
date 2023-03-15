@@ -128,7 +128,7 @@ def mainmagnus(arg):    #used by magnus representation
 	for i in range(0,len(winarray)):
 		summagnus=summagnus+winarray[i]
 	
-	with open(args.fasta+"magnus.csv", 'a', newline='') as file:
+	with open(args.fasta+".magnus.csv", 'a', newline='') as file:
 		writer = csv.writer(file)
 		writer.writerow([head] + list(summagnus/numwin))
 
