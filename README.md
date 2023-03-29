@@ -81,13 +81,12 @@ install.packages(c("phylotools", "cowplot", "dendextend"))
 #### Third-Party Software
 
 ### * Augur: A bioinformatic toolkit for phylogenetic analysis
-    * [Augur Homepage](https://docs.nextstrain.org/projects/augur/en/stable/index.html)
-    * [Augur Installation](https://docs.nextstrain.org/projects/augur/en/stable/installation/installation.html)
+  * [Augur Homepage](https://docs.nextstrain.org/projects/augur/en/stable/index.html)
+  * [Augur Installation](https://docs.nextstrain.org/projects/augur/en/stable/installation/installation.html)
     
 ### * Augur: A bioinformatic toolkit for phylogenetic analysis
-
-    * [Augur Homepage](https://docs.nextstrain.org/projects/augur/en/stable/index.html)
-    * [Augur Installation](https://docs.nextstrain.org/projects/augur/en/stable/installation/installation.html)
+  * [Augur Homepage](https://docs.nextstrain.org/projects/augur/en/stable/index.html)
+  * [Augur Installation](https://docs.nextstrain.org/projects/augur/en/stable/installation/installation.html)
 
 
 
