@@ -164,7 +164,7 @@ else:
 			i = i + 1
 	else:
 		if(args.representation == "4-mer"):
-			ks = kmer_order(4)
+			ks = kmer_init(4)
 			df = pd.DataFrame(columns = ["id"]+[k+x for x in ks for k in ["ni_", "mu_", "D_2_"]])
 			df.to_csv(args.fasta+".4natvec.csv", index = True, header = True)
 			for h, s in zip(db.keys(), db.values()):
@@ -174,7 +174,7 @@ else:
 				i = i + 1
 		else:
 			if(args.representation == "6-mer"):
-				ks = kmer_order(6)
+				ks = kmer_init(6)
 				df = pd.DataFrame(columns = ["id"]+[k+x for x in ks for k in ["ni_", "mu_", "D_2_"]])
 				df.to_csv(args.fasta+".6natvec.csv", index = True, header = True)
 				for h, s in zip(db.keys(), db.values()):
@@ -184,7 +184,7 @@ else:
 					i = i + 1
 			else:
 				if(args.representation == "c-4-mer"):
-					ks = kmer_init(4)
+					ks = kmer_order(4)
 					df = pd.DataFrame(columns = ["id"]+[k+x for x in ks for k in ["ni_", "mu_", "D_2_"]])
 					df.to_csv(args.fasta+".c4natvec.csv", index = True, header = True)
 					for h, s in zip(db.keys(), db.values()):
@@ -194,7 +194,7 @@ else:
 						i = i + 1
 				else:
 					if(args.representation == "c-6-mer"):
-						ks = kmer_init(6)
+						ks = kmer_order(6)
 						df = pd.DataFrame(columns = ["id"]+[k+x for x in ks for k in ["ni_", "mu_", "D_2_"]])
 						df.to_csv(args.fasta+".c6natvec.csv", index = True, header = True)
 						for h, s in zip(db.keys(), db.values()):
