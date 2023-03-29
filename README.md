@@ -45,7 +45,6 @@ pip3 install numpy==1.23.5 pandas==1.4.2 pyfastx==0.8.4 ray==1.12.1 regex==2022.
 ```
 
 
-
 #### R
 
 We suggest the usage of rpy2, as it simplifies the runnning of python and R at the same notebook.
@@ -76,8 +75,21 @@ BiocManager::install(c("phyloTop", "treeio", "castor", "ggtree"))
 ```
 install.packages(c("tidyverse", "ape", "tidytree", "ggpubr"))
 install.packages(c("ggExtra", "ggpmisc", "reshape2"))
-install.packages(c("phylotools", "dende"))
+install.packages(c("phylotools", "cowplot", "dendextend"))
 ```
+
+#### Third-Party Software
+
+### * Augur: A bioinformatic toolkit for phylogenetic analysis
+    * [Augur Homepage](https://docs.nextstrain.org/projects/augur/en/stable/index.html)
+    * [Augur Installation](https://docs.nextstrain.org/projects/augur/en/stable/installation/installation.html)
+    
+### * Augur: A bioinformatic toolkit for phylogenetic analysis
+
+    * [Augur Homepage](https://docs.nextstrain.org/projects/augur/en/stable/index.html)
+    * [Augur Installation](https://docs.nextstrain.org/projects/augur/en/stable/installation/installation.html)
+
+
 
 ________________________________________________________________________________
 
