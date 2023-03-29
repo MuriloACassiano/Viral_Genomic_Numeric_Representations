@@ -76,14 +76,14 @@ BiocManager::install(c("phyloTop", "treeio", "castor", "ggtree"))
 ```
 install.packages(c("tidyverse", "ape", "tidytree", "ggpubr"))
 install.packages(c("ggExtra", "ggpmisc", "reshape2"))
-install.packages(c("phylotools"))
+install.packages(c("phylotools", "dende"))
 ```
 
 ________________________________________________________________________________
 
 ### Numeric encoding
 
-Script -> [numeric_encoding.py](https://github.com/MuriloACassiano/Viral_Genomic_Numeric_Representations/blob/main/numeric_encoding.py)
+Python Script [numeric_encoding.py](https://github.com/MuriloACassiano/Viral_Genomic_Numeric_Representations/blob/main/numeric_encoding.py)
 
 As input, this script takes a fasta file, containing whole genome sequences in ACGTN characters (not aligned sequences).
 As output, this software provide a csv file, with the first column being the fasta header from the original fasta file.
@@ -130,6 +130,13 @@ Or executing uncoupled from terminal (unix based systems):
 nohup python3 numeric_encoding.py --fasta my.sequences.fasta --repr "4-mer" --thread 32 &
 nohup python3 numeric_encoding.py --fasta my.sequences.fasta --repr "6-mer" --thread 32 &
 ```
+________________________________________________________________________________
+
+### Orthocoronaviridae
+
+Nootbook with Python, Shell and R Scripts [coronavirinae.ipynb](https://github.com/MuriloACassiano/Viral_Genomic_Numeric_Representations/blob/main/coronavirinae.ipynb)
+
+This notebook constains a detailed description of the analysis of 69 genomes of alpha, beta, delta and gammacoronaviruses.
 
 ________________________________________________________________________________
 
@@ -152,4 +159,3 @@ ________________________________________________________________________________
 ## Acknowledgments
 
 * The present work was carried out with the support of the Coordination for the Improvement of Higher Education Personnel - Brazil (CAPES).
-
