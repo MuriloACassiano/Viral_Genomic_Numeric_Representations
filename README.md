@@ -80,13 +80,27 @@ install.packages(c("phylotools", "cowplot", "dendextend"))
 
 #### Third-Party Software
 
+### * MAFFT: a multiple sequence alignment program for unix-like operating systems
+  * [Homepage](https://mafft.cbrc.jp/alignment/software/)
+  * [LINUX Installation](https://mafft.cbrc.jp/alignment/software/linux.html)
+  * [MAC-OS Installation](https://mafft.cbrc.jp/alignment/software/macosx.html)
+  * [WSL windows Installation](https://mafft.cbrc.jp/alignment/software/windows.html)
+
+### * trimAL: a tool for the automated removal of spurious sequences or poorly aligned regions from a multiple sequence alignment
+  * [Homepage](http://trimal.cgenomics.org/trimal)
+  * [Installation](http://trimal.cgenomics.org/downloads)
+
+### * IQ-TREE: Efficient software for phylogenomic inference
+  * [Homepage](http://www.iqtree.org/)
+  * [Documentation](http://www.iqtree.org/doc/)
+
 ### * Augur: A bioinformatic toolkit for phylogenetic analysis
-  * [Augur Homepage](https://docs.nextstrain.org/projects/augur/en/stable/index.html)
-  * [Augur Installation](https://docs.nextstrain.org/projects/augur/en/stable/installation/installation.html)
-    
-### * Augur: A bioinformatic toolkit for phylogenetic analysis
-  * [Augur Homepage](https://docs.nextstrain.org/projects/augur/en/stable/index.html)
-  * [Augur Installation](https://docs.nextstrain.org/projects/augur/en/stable/installation/installation.html)
+  * [Homepage](https://docs.nextstrain.org/projects/augur/en/stable/index.html)
+  * [Installation](https://docs.nextstrain.org/projects/augur/en/stable/installation/installation.html)
+
+### * Nextclade: Clade assignment, mutation calling, and sequence quality checks
+  * [Homepage](https://clades.nextstrain.org/)
+  * [Download](https://github.com/nextstrain/nextclade/releases)
 
 
 
