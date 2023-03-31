@@ -165,6 +165,14 @@ This notebook constains a detailed description of the analysis of 69 genomes of 
 
 ________________________________________________________________________________
 
+### Brazilian SARS-CoV-2 Genomes
+
+Nootbook with Python, Shell and R Scripts [BR_SARS_CoV_2.ipynb](https://github.com/MuriloACassiano/Viral_Genomic_Numeric_Representations/blob/main/BR_SARS_CoV_2.ipynb)
+
+This notebook constains a detailed description of the analysis of SARS-CoV-2 genomes, from the ~86K sequences subsampled to 3K sequences in order to make the comparisons possible.
+
+________________________________________________________________________________
+
 ## Authors
 
 * **Murilo H. Anzolini Cassiano** - *Conceptualization and execution* - [Murilo Cassiano](https://github.com/MuriloACassiano)
