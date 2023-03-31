@@ -159,7 +159,7 @@ ________________________________________________________________________________
 
 ### Orthocoronaviridae
 
-Nootbook with Python, Shell and R Scripts [coronavirinae.ipynb](https://github.com/MuriloACassiano/Viral_Genomic_Numeric_Representations/blob/main/coronavirinae.ipynb)
+Notebook with Python, Shell and R Scripts [coronavirinae.ipynb](https://github.com/MuriloACassiano/Viral_Genomic_Numeric_Representations/blob/main/coronavirinae.ipynb)
 
 This notebook constains a detailed description of the analysis of 69 genomes of alpha, beta, delta and gammacoronaviruses.
 
@@ -167,7 +167,7 @@ ________________________________________________________________________________
 
 ### Brazilian SARS-CoV-2 Genomes
 
-Nootbook with Python, Shell and R Scripts [BR_SARS_CoV_2.ipynb](https://github.com/MuriloACassiano/Viral_Genomic_Numeric_Representations/blob/main/BR_SARS_CoV_2.ipynb)
+Notebook with Python, Shell and R Scripts [BR_SARS_CoV_2.ipynb](https://github.com/MuriloACassiano/Viral_Genomic_Numeric_Representations/blob/main/BR_SARS_CoV_2.ipynb)
 
 This notebook constains a detailed description of the analysis of SARS-CoV-2 genomes, from the ~86K sequences subsampled to 3K sequences in order to make the comparisons possible.
 
