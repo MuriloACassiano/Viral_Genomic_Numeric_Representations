@@ -102,7 +102,9 @@ install.packages(c("phylotools", "cowplot", "dendextend"))
   * [Homepage](https://clades.nextstrain.org/)
   * [Download](https://github.com/nextstrain/nextclade/releases)
 
-
+### * phylonium: fast and accurate estimation of evolutionary distances
+  * [Homepage](https://github.com/EvolBioInf/phylonium)
+  * [Manual](https://github.com/EvolBioInf/phylonium/blob/master/documentation/manual.pdf)
 
 ________________________________________________________________________________
 
@@ -171,6 +173,15 @@ Notebook with Python, Shell and R Scripts [BR_SARS_CoV_2.ipynb](https://github.c
 
 This notebook constains a detailed description of the analysis of SARS-CoV-2 genomes, from the ~86K sequences subsampled to 3K sequences in order to make the comparisons possible.
 
+________________________________________________________________________________
+
+### Brazilian SARS-CoV-2 Genomes
+
+Notebook with Shell and R Scripts [phylonium_output.ipynb](https://github.com/MuriloACassiano/Viral_Genomic_Numeric_Representations/blob/main/phylonium_output.ipynb)
+
+This notebook constains a detailed description of the analysis of ~3K SARS-CoV-2 genomes using a program for estimating the evolutionary distances between closely related genomes.
+
+According it's developers and recend independent benchmarks, phylonium is much faster than alignment based approaches for phylogeny reconstruction and more accurate than similar alignment-free methods.
 ________________________________________________________________________________
 
 ## Authors
