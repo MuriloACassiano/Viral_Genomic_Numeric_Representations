@@ -175,7 +175,7 @@ This notebook constains a detailed description of the analysis of SARS-CoV-2 gen
 
 ________________________________________________________________________________
 
-### Brazilian SARS-CoV-2 Genomes
+### Phylonium test with Brazilian SARS-CoV-2 Genomes
 
 Notebook with Shell and R Scripts [phylonium_output.ipynb](https://github.com/MuriloACassiano/Viral_Genomic_Numeric_Representations/blob/main/phylonium_output.ipynb)
 
